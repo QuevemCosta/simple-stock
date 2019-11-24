@@ -1,0 +1,64 @@
+body{
+    background-image: url('../img/fundo.jpg');
+    background-size: inherit;
+    background-repeat: no-repeat;
+    min-width: 920px;
+    overflow: none;
+}
+header div h1{
+    font-size: 20px;
+    line-height: 100px;
+    color: lightyellow;
+}
+#main{
+    color: #ffff;
+    background:rgba(22, 21, 21, 0.774);
+    width: 80%;
+    display: block;
+    position: absolute;
+    left: 201px;
+    top: 70px;
+    height: 80%;
+    overflow: auto;
+}
+#main h1{
+    margin-left: 40px;
+    line-height: 160px;
+}
+button {
+    color:#333; 
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    line-height: 30px;
+    margin: 0 5px;
+    padding: 5px 10px;
+    float: left;
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+    background-color: seashell;
+}
+a{
+    color: #ffff;
+}
+a:hover{
+    color:#ffff;
+    text-decoration: underline;
+}
+section{
+    width: 90%;
+}
+::-webkit-scrollbar{
+    background-color:#dddd;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;
+    border-radius: 10px;
+    background:grey; 
+     
+}
+hr{
+    margin: 20px ;
+}
