@@ -233,7 +233,7 @@
                     </fieldset>
                 </section>
                 <div class="btn-forms" >                
-                    <button type="button">Cancelar</button>
+                    <button><a  href="../index.php" title="Cancelar cadastro" >Cancelar</a></button>
                     <button type="reset">Limpar</button>
                     <button type="submit">Finalizar</button>
                 </div>

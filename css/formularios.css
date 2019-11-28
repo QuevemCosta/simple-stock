@@ -70,12 +70,9 @@ select{
     position:absolute; 
     left: 390px;
 }
-.btn-forms a{
-    padding: 8px 15px;
-    color: #000000;
-    display: inline-block;
-    border-radius: 2px;
-    background-color: cornsilk;
+.btn-forms button a,.btn-forms button a:hover{
+   color: #333;
+   text-decoration: none;;
 }
 /*vendas-----------------------------*/
 #list-itens-venda{
@@ -125,8 +122,12 @@ select{
     font-size: 25px;
     color: #ffff
 }
-#cod-produto[placeholder]{
+#cod-produto {
     font-weight:700;
     font-size: 24px;
-    color: red;
+    width: 200px;
+    padding-left: 15px;
+}
+#cod-produto::-webkit-input-placeholder {
+   color: #6b99b4;
 }

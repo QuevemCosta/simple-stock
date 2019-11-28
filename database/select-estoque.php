@@ -25,7 +25,7 @@
                 $precoVenda = $row['PRECOVENDA'];?>
 
                 <table>
-                	<td ><a href="#" title="Atualizar Produto"><?echo $descricao;?></a></td>
+                	<td ><a href="#" title="Click aqui para Atualizar o Produto"><?echo $descricao;?></a></td>
                 	<td><?echo $codProduto;?></td>
                 	<td><?echo $codBarras ;?></td>
                 	<td><?echo $unidades ;?></td>

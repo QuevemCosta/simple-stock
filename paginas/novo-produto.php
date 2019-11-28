@@ -1,3 +1,12 @@
+<?
+    if(isset($_GET['ok'])){
+        ?>
+            <script>
+                window.open('alerta-positivo.html',"janela1","width=400,height=200,")
+            </script>
+        <?
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -53,7 +62,7 @@
                 <li ><a href="estoque.php">ESTOQUE</a></li>
                 <li class="active" ><a href="novo-produto.php">NOVO PRODUTO</a></li>
                 <li><a href="clientes.php">CLIENTES</a></li>
-                <li  ><a href="novo-cliente.php">NOVO CLIENTE</a></li>
+                <li ><a href="novo-cliente.php">NOVO CLIENTE</a></li>
             </ul>
         </nav>
     </header>
@@ -139,9 +148,9 @@
                 </div>
 
                 <div class="btn-forms">
-                    <button type="submit" title="Concluir Cadastro" >Cadastrar</button>
+                    <button><a  href="../index.php" title="Cancelar cadastro" >Cancelar</a></button>
                     <button type="reset" title="Limpar formulário" >Limpar</button>
-                    <a  href="../index.php" title="Cancelar cadastro" >Cancelar</a>
+                    <button type="submit" title="Concluir Cadastro" >Cadastrar</button>
                 </div>
                 
             </form>
