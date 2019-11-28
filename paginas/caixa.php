@@ -119,6 +119,7 @@
                     <span>2,50</span>
                 </div>
         </div>
+</div>
     <footer>
         <p>Copytight SimpleStock &copy 2019 Desenvolvido por <a 
             href="https://www.quevemcosta.com" target="_blank" >QuevemCosta</a>

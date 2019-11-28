@@ -3,6 +3,7 @@ footer{
     display: block;
     position: absolute;
     width: 100%;
+    min-width: 1024px;
     left: 0;
     bottom: 0;
     line-height: 30px;

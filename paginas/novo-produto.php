@@ -62,7 +62,7 @@
             <form 
                 id="form-produto" 
                 method="post" 
-                action="../con-base/perciste-produto.php" 
+                action="../database/insert-novo-produto.php" 
                 autocomplete="off"    
             >
                 <div class="inputs">
@@ -80,18 +80,20 @@
 
                     <span>Código do protuto</span>
                     <input 
-                        type="number"
+                        type="text"
                         title="Código do produto"
-                        placeholder="Código do produto"
+                        placeholder="<?
+                        include_once('../database/rescupera-cod-produto.php')
+                        ?>"
                         name="cod_produto"
                         id="cod-produto"
-                        maxlength="10"
-                        required
+                        maxlength="5"
+                        disabled  
                     >
 
                     <span>Código de Barras</span>
                     <input 
-                        type="number"
+                        type="text"
                         title="Código de barras"
                         placeholder="Cócdigo de barras"
                         name="cod_barras"
@@ -137,9 +139,9 @@
                 </div>
 
                 <div class="btn-forms">
-                    <button type="link" title="Cancelar cadastro" >Cancelar</button>
-                    <button type="reset" title="Limpar formulário" >Limpar</button>
                     <button type="submit" title="Concluir Cadastro" >Cadastrar</button>
+                    <button type="reset" title="Limpar formulário" >Limpar</button>
+                    <a  href="../index.php" title="Cancelar cadastro" >Cancelar</a>
                 </div>
                 
             </form>

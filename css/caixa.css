@@ -7,7 +7,7 @@
 }
 #caixa-aberto{
     display: block;
-    width: 95%;
+    width: 1020px;
 }
 #saldo-inicial,#entrada-caixa, #saida-caixa,#saldo-operaconal,#saldo-final{
     width: 320px;

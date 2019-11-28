@@ -70,6 +70,13 @@ select{
     position:absolute; 
     left: 390px;
 }
+.btn-forms a{
+    padding: 8px 15px;
+    color: #000000;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: cornsilk;
+}
 /*vendas-----------------------------*/
 #list-itens-venda{
     border:1px solid grey;
@@ -117,4 +124,9 @@ select{
 #feeback label{
     font-size: 25px;
     color: #ffff
+}
+#cod-produto[placeholder]{
+    font-weight:700;
+    font-size: 24px;
+    color: red;
 }

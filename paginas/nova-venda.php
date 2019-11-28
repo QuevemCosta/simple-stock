@@ -228,7 +228,7 @@
                     >Cancelar venda</button>
                     <button type="submit"
                             title="Finalizar venda"
-                    >Finalizar venada</button>
+                    >Finalizar</button>
                 </div>
 
 
